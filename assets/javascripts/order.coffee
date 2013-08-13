@@ -29,6 +29,7 @@ $ ->
       hide_thank_you()
 
     $.post '/orders.json', {'order[username]': $('input[name=username1]').val(), 'order[phone]': $('input[name=phone1]').val()}, (data) =>
+      yaCounter22054939.reachGoal('new_order')
 
     $('.modal-overlay').unbind 'click'
     $('.modal-overlay').bind 'click', ->
