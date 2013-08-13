@@ -1,8 +1,8 @@
 # Bundler tasks
 require 'bundler/capistrano'
 
-set :application, "blackxs"
-set :repository,  "git@github.com:Agatov/blackxs.git"
+set :application, "million"
+set :repository,  "git@github.com:Agatov/million.git"
 
 set :scm, :git
 
